@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightpink;
+}
+nav{
+    display: flex;
+    background-color: lightslategray;
+    color: antiquewhite;
+    padding: 10px;
+    font-size: 20px;
+    gap: 40px;
+    position: fixed;
+    align-items: center;
+    justify-content: end;
+
+}
+nav a{
+    color: aquamarine;
+    text-decoration: none;
+    font-weight: bolder;
+}
+nav a:hover{
+    color: yellow;
+}
+#hero{
+    text-align: center;
+    padding: 20px;
+    background-color: aqua;
+    font-family: cursive;
+    font-weight: bolder;
+}
+#hero img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+#education{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+#edu img{
+    width:auto;
+    height: 250px;
+    background-color: lightslategray;
+    padding: 20px;
+}
+#school{
+    background-color: lightskyblue;
+}
+#pu college{
+    background-color: rgb(223, 223, 16);
+}
+#degree clg{
+    background-color: pink;
+}
